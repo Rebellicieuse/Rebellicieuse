@@ -1,0 +1,47 @@
+<!doctype html>
+
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        
+        <script type="text/javascript">
+
+	            function detectmob() { 
+	                if( navigator.userAgent.match(/Android/i)
+	                || navigator.userAgent.match(/webOS/i)
+	                || navigator.userAgent.match(/iPhone/i)
+	                || navigator.userAgent.match(/iPad/i)
+	                || navigator.userAgent.match(/iPod/i)
+	                || navigator.userAgent.match(/BlackBerry/i)
+	                || navigator.userAgent.match(/Windows Phone/i)
+	                ){
+		                    return true;
+	                    }
+	                else {
+		                    return false;
+	                    }
+	                }
+</script>
+        <title>Testing Animations</title>
+
+        <!-- Load external CSS styles -->
+        <link href="animations.css" rel="stylesheet" type="text/css">
+
+    </head>
+
+    <body>
+        <script type="text/javascript" src="janis.js"></script>
+
+        <h1>Light animations for any devices include mobile...</h1>
+
+        <div class="playground">
+        	<div id="scene" class="scene2"></div>
+        </div>
+        
+        <!-- Load external JavaScript -->
+        <script src="scripts.js"></script>
+        
+    </body>
+
+</html>
