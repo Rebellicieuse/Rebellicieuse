@@ -3,42 +3,89 @@
 html, body
 {
 	font-family: 'Russo One', sans-serif;
-	//margin: 0;
-	//padding-left:75px;
 	color: #999;
-	//text-align:center;
 }
+
+.flex-container {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+#items {
+
+  margin: 10px 100px 10px 100px;
+  height: 500px;
+  width: 500px;
+  border: 2px solid #A8C2D2;
+
+}
+
 h1
 {
-	float: left;
+	margin: auto;
+	text-align: center;
+
 }
 a:link    { color:#FFF;}
 a:visited {color:#FFF;}
 a:hover   { color:#333;}
 a:active  {color:#FFF;}
-title
+/*title
 {
 	left:125px;
 }
 
-/*.test 
+.test 
 {
 	position: absolute;
 	width: 100px;
 	height: 100px;
 	background-color: black;
-	-moz-transition-property: *;
+	-mo
+	display: flex;z-transition-property: *;
 	-moz-transition-duration: 1000s;
 }*/
+
 .playground 
 {
-	float: left;
-	position: relative;
 	width: 500px;
 	height: 500px;
-	margin: 50px;
-	border: 2px solid #A8C2D2;
  }
+
+ .flex-item-left {
+
+  background-color: #ffdb58;
+
+}
+
+ 
+
+.flex-item-right {
+
+  background-color: dodgerblue;
+
+}
+
+ 
+
+.flex-item-left_2 {
+
+  background-color: #ff0800;
+
+}
+
+ 
+
+.flex-item-right_2 {
+
+  background-color: #ffa500;
+
+}
 /*.subject 
 {
 	position: absolute;
@@ -191,6 +238,17 @@ blockquote
 	-o-animation: scene2 150s linear infinite ;
 	-ms-animation: scene2 150s linear infinite ;
 	animation: scene2 150s linear infinite ;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+
+@media (max-width: 1000px) {
+
+  .flex-container {
+
+    flex-direction: column;
+
+  }
 }
 
 
