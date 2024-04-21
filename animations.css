@@ -3,39 +3,16 @@
 html, body
 {
 	font-family: 'Russo One', sans-serif;
+	margin: 0;
+	padding-left:75px;
 	color: #999;
-}
-
-.flex-container {
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  font-size: 30px;
-  text-align: center;
-}
-
-#items {
-
-  margin: 10px 100px 10px 100px;
-  height: 500px;
-  width: 500px;
-  border: 2px solid #A8C2D2;
-
-}
-
-h1
-{
-	margin: auto;
-	text-align: center;
-
+	text-align:center;
 }
 a:link    { color:#FFF;}
 a:visited {color:#FFF;}
 a:hover   { color:#333;}
 a:active  {color:#FFF;}
-/*title
+title
 {
 	left:125px;
 }
@@ -46,51 +23,23 @@ a:active  {color:#FFF;}
 	width: 100px;
 	height: 100px;
 	background-color: black;
-	-mo
-	display: flex;z-transition-property: *;
+	-moz-transition-property: *;
 	-moz-transition-duration: 1000s;
-}*/
-
+}
 .playground 
 {
-	width: 500px;
-	height: 500px;
+	float: left;
+	position: relative;
+	width: 200px;
+	height: 200px;
+	margin: 50px;
+	border: 2px solid #A8C2D2;
  }
-
- .flex-item-left {
-
-  background-color: #ffdb58;
-
-}
-
- 
-
-.flex-item-right {
-
-  background-color: dodgerblue;
-
-}
-
- 
-
-.flex-item-left_2 {
-
-  background-color: #ff0800;
-
-}
-
- 
-
-.flex-item-right_2 {
-
-  background-color: #ffa500;
-
-}
-/*.subject 
+.subject 
 {
 	position: absolute;
 	background-color:#58FAF4;
-	/*background-color: rgba(0, 0, 0, 0.3);
+	/*background-color: rgba(0, 0, 0, 0.3);*/
 	top: 0px;
 	left: 0px;
 	width: 50px;
@@ -100,8 +49,8 @@ a:active  {color:#FFF;}
 	-webkit-border-radius: 25px;
 	-moz-border-radius: 25px;
 	opacity: 0;
-}*/
-/*.baton
+}
+.baton
 {
 	position:absolute;
 	width:4px;
@@ -110,20 +59,20 @@ a:active  {color:#FFF;}
 	left:147px;
 	background-color: #966;
 	z-index:0;
-}*/
-/*.test1
+}
+.test1
 {
-	/*background-image: url(../../../../../../Library/WebServer/Documents/mobile/ANIMATION/SkyProject/images/square.jpg);
+	/*background-image: url(../../../../../../Library/WebServer/Documents/mobile/ANIMATION/SkyProject/images/square.jpg);*/
 	background-image:url(images/square.jpg);
 }
 .test3
 {
-	/*background-image: url(../../../../../../Library/WebServer/Documents/mobile/ANIMATION/SkyProject/images/bokeh_texture.jpg);
+	/*background-image: url(../../../../../../Library/WebServer/Documents/mobile/ANIMATION/SkyProject/images/bokeh_texture.jpg);*/
 	background-image:url(images/bokeh_texture.jpg);
 }
 .test4
 {
-	/*background-image:url(../../../../../../Library/WebServer/Documents/mobile/ANIMATION/SkyProject/images/nainBG.jpg);
+	/*background-image:url(../../../../../../Library/WebServer/Documents/mobile/ANIMATION/SkyProject/images/nainBG.jpg);*/
 	background-image:url(images/nainBG.jpg);
 }
 .vestibule
@@ -134,7 +83,7 @@ a:active  {color:#FFF;}
 	width:95px;
 	height:14px;
 	padding:5px;
-	background-color:#999;
+	background-color:#0b65c2;
 }
 #test1 
 {
@@ -148,17 +97,17 @@ a:active  {color:#FFF;}
 	left:0;
 	width:200px;
 	height:200px;
-	/*background-image: url(../../../../../../Library/WebServer/Documents/mobile/ANIMATION/SkyProject/images/tallin_square.jpg);
+	/*background-image: url(../../../../../../Library/WebServer/Documents/mobile/ANIMATION/SkyProject/images/tallin_square.jpg);*/
 	background-image:url(images/tallin_square.jpg);
 	overflow:hidden;
-}*/	
-/*#test2
+}	
+#test2
 {
 	top:0;
 	left:0;
 	width:200px;
 	height:200px;
-	/*background-image: url(../../../../../../Library/WebServer/Documents/mobile/ANIMATION/SkyProject/images/chatNoir.png);
+	/*background-image: url(../../../../../../Library/WebServer/Documents/mobile/ANIMATION/SkyProject/images/chatNoir.png);*/
 	background-image:url(images/chatNoir.png);
 	background-color:transparent;
 	opacity:0;
@@ -167,7 +116,7 @@ a:active  {color:#FFF;}
 {
 	top: 75px;
 	left: 100px;
-	/*background-image:url(../../../../../../Library/WebServer/Documents/mobile/ANIMATION/SkyProject/images/windmill.png);
+	/*background-image:url(../../../../../../Library/WebServer/Documents/mobile/ANIMATION/SkyProject/images/windmill.png);*/
 	background-image:url(images/windmill.png);
 	background-color: transparent;
 	z-index:1000;
@@ -186,21 +135,19 @@ blockquote
 	width:200px;
 	height:198px;
 	/*min-width: 200px;
-	max-width: 400px;
+	max-width: 400px;*/
 	z-index:1010;
 }
-*/
 
 
 #scene {
-	width: 500px;
-	height: 300px;
-	padding-top: 200px;
+	width: 200px;
+	height: 200px;
 	float:left;
 	background: 
-		 url(cloud1.png) repeat-x,
-		 url(cloud2.png) repeat-x,
-		 url(sky1.jpg);
+		 url(images/cloud1.png) repeat-x,
+		 url(images/cloud2.png) repeat-x,
+		 url(images/sky1.jpg);
 }
 
 @-webkit-keyframes scene2 {
@@ -225,30 +172,18 @@ blockquote
 }
 
 .scene2 {
-	width: 500px;
-	height: 300px;
-	padding-top: 200px;
+	width: 250px;
+	height: 250px;
 	
 	background: 
-	    url(cloud3.png),
-		url(cloud1.png) repeat-x,
-		url(sky1.jpg);
-	-webkit-animation: scene2 150s linear infinite ;
-	-moz-animation: scene2 150s linear infinite ;
-	-o-animation: scene2 150s linear infinite ;
-	-ms-animation: scene2 150s linear infinite ;
-	animation: scene2 150s linear infinite ;
-}
-
-/* Responsive layout - makes a one column-layout instead of two-column layout */
-
-@media (max-width: 1000px) {
-
-  .flex-container {
-
-    flex-direction: column;
-
-  }
+	    url(images/cloud3.png),
+		url(images/cloud1.png) repeat-x,
+		url(images/sky1.jpg);
+	-webkit-animation: scene2 85s linear infinite ;
+	-moz-animation: scene2 85s linear infinite ;
+	-o-animation: scene2 85s linear infinite ;
+	-ms-animation: scene2 85s linear infinite ;
+	animation: scene2 85s linear infinite ;
 }
 
 
