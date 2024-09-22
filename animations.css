@@ -75,6 +75,12 @@ title
 	/*background-image:url(../../../../../../Library/WebServer/Documents/mobile/ANIMATION/SkyProject/images/nainBG.jpg);*/
 	background-image:url(images/nainBG.jpg);
 }
+.test5
+{
+	/*background-image:url(../../../../../../Library/WebServer/Documents/mobile/ANIMATION/SkyProject/images/nainBG.jpg);*/
+	background-image:url(images/landscape_6135269.png);
+	background-size: 100%;
+}
 .vestibule
 {
 	position:absolute;
@@ -119,6 +125,18 @@ title
 	/*background-image:url(../../../../../../Library/WebServer/Documents/mobile/ANIMATION/SkyProject/images/windmill.png);*/
 	background-image:url(images/windmill.png);
 	background-color: transparent;
+	z-index:1000;
+	
+}
+#test5
+{
+	top: 100px;
+	left: 200px;
+	/*background-image:url(../../../../../../Library/WebServer/Documents/mobile/ANIMATION/SkyProject/images/windmill.png);*/
+	background-image:url(images/pngegg.png);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-size: 90%;
 	z-index:1000;
 	
 }
