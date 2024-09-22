@@ -64,7 +64,22 @@
 	
 	</script>
     </div>
-    
+    <div class="playground test5">
+            
+        <div id="test5" class="test"></div>
+            <script>
+                var test5 = Janis(document.getElementById('test5'));
+                test5.chain().animate({
+                    'left': '205px',
+                    'delay' : 1000,
+                    'duration': 5000,
+                }).animate({
+                    'left': '-110px',
+                    'delay' :1000,
+                    'duration': 5000,
+                }).loop();
+            </script>
+    </div>
     <div class="playground test4">
         <div id="test4" class="test"></div>
         <div class="baton"></div>
